@@ -1,0 +1,211 @@
+@media  screen and(max-width:1168px) {
+    .btnstyle1_container button{
+        font-size: 0.9rem;
+    }
+    .box_style2{
+        height: 320px;
+    }
+    .box_style2 .p2{
+
+        font-size: 1rem;
+    }
+
+    .box_style3{
+        height: 380px;
+    }
+
+   .box_style3 .p3 {
+    font-size: 0.9rem;
+   }
+
+   .f_bottomright .links .links_heading{
+    font-size: 1.3rem;
+   }
+
+    
+}
+
+
+
+@media screen and (max-width:1024px){
+    .btnstyle1_container button{
+        font-size: 0.8rem;
+    }
+    .box_style1{
+        height: 300px;
+    }
+    .box_style1 .bs1_content p{
+        font-size: 0.9rem;
+    }
+    .box_style2{
+        height: 330px;
+    }
+    .box_style3{
+        height: 310px;
+        margin: 10px 4px;
+    }
+    .box_style3 .p3{
+        font-size: 0.8rem;
+    }
+    .f_bottomright .links .links_heading{
+        font-size: 1.3rem;
+    }
+    .f_bottomright .links a{
+        padding: 6px;
+        margin: 0px 10px;
+    }
+
+}
+@media screen and (max-width:980px){
+        .menuitems{
+            font-size: 0.9rem;
+        }
+        .hero_heading h1{
+            font-size: 2.5rem;
+        }
+        .card {
+            width: 65%;
+        }
+        .arrow div {
+            padding: 2px 4px;
+        }
+        .box_style1 {
+            height: 269px;
+            margin: 2px;
+        }
+        .box_style1 .bs1_container h2{
+            font-size: 1.2rem;
+        }
+        .box_style1 .bs1_content p{
+            font-size: 0.8rem;
+        }
+        .box_style2{
+            height: 300px;
+            margin: 10px 20px;
+        }
+        .box_style2 .image2{
+            width: 100%;
+        }
+        .box_style2 .p2{
+            font-size: 1rem;
+        }
+        .box_style3 .image3{
+            height: 70%;
+        }
+        .f_bottomright .links a{
+            padding: 3px 6px;
+        }
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        padding: 16px 10px;
+    }
+    .menuitems{
+        width: 25%;
+        font-size: 0.8rem;
+    }
+    .buttons{
+        width: 30%;
+    }
+    .btn {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+    }
+    .btnstyle1_container button{
+        font-size: 0.6rem;
+    }
+    .hero_heading h1{
+        font-size: 2.2rem;
+    }
+    .hero_heading p{
+        font-size: 0.75rem;
+        max-width: 286px;
+    }
+    .card {
+        width: 77%;
+    }
+    .box_style1 {
+        height: 230px;
+        margin: 2px;
+    }
+    .box_style1 .bs1_container h2 {
+        font-size: 1rem;
+    }
+    .box_style1 .bs1_content p {
+        font-size: 0.7rem;
+    }
+    .box_style2{
+        height: 245px;
+        margin: 10px 15px;
+    }
+    .box_style2 .p2 {
+        font-size: 0.8rem;
+    }
+    .box_style3 {
+        height: 272px;
+        margin: 9px 2px;
+    }
+    .f_left h2 {
+        font-size: 1.2rem;
+    
+    }
+    .f_left h2 span {
+        font-size: 1.2rem;
+    
+    }
+    .f_left p {
+        font-size: 0.6rem;
+        width: 96%;
+    }
+    .foter_bottomleft p{
+        font-size: 0.6rem;
+        width: 97%;
+    }
+    
+    .f_right h2{
+        font-size: 1.2rem;
+        padding:  10px 2px;
+    }
+    .f_bottomright .links .links_heading {
+        font-size: 1rem;
+    }
+    .f_bottomright .links a{
+        font-size: 0.6rem;
+        padding: 3px 10px;
+    }
+}
+
+
+
+/* for mobile devices */
+
+
+@media screen and (max-width:668px) {
+    body{
+        width: 100%;
+        max-width: 667;
+    }
+    .navbar .menuitems,
+            .navbar .btn {
+                display: none;
+            }
+
+            .navbar .logo {
+                width: 60%;
+            }
+            .buttons{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 30%;
+            }
+           
+            .navbar .toggle_btn{
+                display: block;
+                width: 10%;
+                cursor: pointer;
+            }
+
+
+
+}
